@@ -1,0 +1,74 @@
+.container {
+    width: 500px;
+    margin-top: 100px;
+    background-color: #012727d7;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+
+button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list{
+    margin-top: 30px !important;
+}
+li{
+    margin-bottom: 15px;
+    margin-left: -12px;
+    background-color: black !important;
+    color:white !important;
+    border:none !important;
+    list-style-type: none;
+    border-radius: 10px;
+    padding:10px;
+}
+.list-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align icons to the left */
+}
+
+.list-item-icons {
+    margin-right: 5px; /* Adjust the margin as needed */
+    color: white; /* Set icon color */
+}
+
+/* Add this if you want icons to be aligned vertically centered */
+.list-item-icons svg {
+    vertical-align: middle;
+}
+#complete{
+    color: green;
+}
+
+#edit{
+    color:blue;
+}
+#delete{
+    color:red
+}
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
